@@ -54,4 +54,23 @@ Use a DSP processor when the following are required:
 
 ## Difference b/w CPLD and FPGA
 
+### CPLD
+Its more control oriented
+
+Where we can use a CPLD we can also use a FPGA
+
+CPLD Architecture has the following components:
+
+1. Logic blocks
+    - IO blocks
+2. Clock Routing
+3. Routing Matrix
+
+![CPLD ARchitecture](./img/Screenshot_20230112_111640.png)
+### FPGA
+Its more Data path oriented
+
+![FPGA vs CPLD](./img/Screenshot_20230112_110602.png)
+
+
 
