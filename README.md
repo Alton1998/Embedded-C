@@ -70,7 +70,53 @@ CPLD Architecture has the following components:
 ### FPGA
 Its more Data path oriented
 
+We have 2 types of processor cores:
+
+- Soft core
+- Hard core
+
+![FPGA Architecture](./img/Screenshot_20230112_113454.png)
+
 ![FPGA vs CPLD](./img/Screenshot_20230112_110602.png)
 
+![DSP vs FPGA](./img/Screenshot_20230112_114040.png)
 
+## When to use DSP in FPGA
+
+1. Higher performance
+    - Parallel algorithm implementation
+2. Customizable Design
+    - Optimize for speed and cost
+3. System Integration
+    - Less board real estate
+    - Less chips could mean less sytem cost
+
+![Traditional DSP](./img/Screenshot_20230112_125732.png)
+
+We can tranform the above architecture to use few chips by using FPGA:
+
+![Optimized Chip](./img/Screenshot_20230112_130100.png)
+## FPGA vs ASIC
+### FPGA
+- Function can be changed whenever
+- FPGA fabric emulates custom circuits
+### ASIC
+- Special chip purpose built for an application
+- Function cannot be changed once expensive
+## Multicore Processor
+### System on Chip (SOC)
+ 2 or more independent processors in one package
+### Symmetric Mulitprocessing
+- A Number of Identical Processors
+- Common Shared Memory
+- One operating System
+
+### Asymmetric Multiprocessing
+- Different Processors, Instruction Sets
+- Different Operating Systems
+- Possibly Without Shared Memory
+
+## Perfomance vs Cost
+
+![Performance_VS_Cost](./img/Screenshot_20230130_231526.png)
 
