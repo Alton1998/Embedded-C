@@ -123,3 +123,6 @@ We can tranform the above architecture to use few chips by using FPGA:
 ## IDE's for developement
 
 ![IDE](./img/Screenshot_20230130_232109.png)
+
+## Memories
+![Memory](./img/Screenshot_20230130_233141.png)
