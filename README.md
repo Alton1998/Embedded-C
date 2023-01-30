@@ -126,3 +126,31 @@ We can tranform the above architecture to use few chips by using FPGA:
 
 ## Memories
 ![Memory](./img/Screenshot_20230130_233141.png)
+
+## Installing GCC
+
+https://www.msys2.org/ - Follow full instructions here
+
+Updating msys2
+
+```
+pacman -Syu
+```
+
+![updating](./img/Screenshot_20230131_001944.png)
+
+```
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain
+```
+
+Your screen should look something like this
+
+![screen](./img/Screenshot_20230131_002442.png)
+
+Choose 3
+
+Make sure you add the following to paths
+
+- C:\msys64
+- C:\msys64\mingw64\bin
+
