@@ -120,3 +120,6 @@ We can tranform the above architecture to use few chips by using FPGA:
 
 ![Performance_VS_Cost](./img/Screenshot_20230130_231526.png)
 
+## IDE's for developement
+
+![IDE](./img/Screenshot_20230130_232109.png)
